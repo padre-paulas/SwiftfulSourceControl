@@ -22,6 +22,12 @@ struct ContentView: View {
                 Button("Click me") {
                     
                 }
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "iphone")
+                }
             }
             .padding()
         }
