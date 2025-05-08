@@ -15,14 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             
-            Button {
-                
-            } label: {
-                Image(systemName: "person.circle.fill")
-                    .padding(.horizontal)
-            }
-            .buttonStyle(.bordered)
-
+          
         }
         .padding()
     }
