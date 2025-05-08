@@ -28,6 +28,12 @@ struct ContentView: View {
                 } label: {
                     Image(systemName: "iphone")
                 }
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "iphone")
+                }
             }
             .padding()
         }
