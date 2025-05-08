@@ -9,17 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 30) {
-            Image(systemName: "macbook")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
             
-            Button("Click me") {
+            Color.orange.opacity(0.3).ignoresSafeArea()
+            
+            VStack(spacing: 30) {
+                Image(systemName: "macbook")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
                 
+                Button("Click me") {
+                    
+                }
             }
+            .padding()
         }
-        .padding()
+        
     }
 }
 
