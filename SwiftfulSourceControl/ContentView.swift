@@ -17,7 +17,7 @@ struct ContentView: View {
                 Image(systemName: "macbook")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("Swift if awesome!")
+                Text("Swift is awesome!")
                 
                 Button("Click me") {
                     
