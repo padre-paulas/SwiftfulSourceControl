@@ -9,13 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var title: String = ""
+    @State var title: String = "Hello, world"
     
     var body: some View {
         VStack {
             Text("Screen 2")
             Text("Screen 2")
+            
             Text("Screen 2")
+                .textCase(.uppercase)
         }
         
     }
