@@ -34,6 +34,8 @@ struct ContentView: View {
                 } label: {
                     Image(systemName: "iphone")
                 }
+                
+                Rectangle()
             }
             .padding()
         }
