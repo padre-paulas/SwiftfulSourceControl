@@ -31,6 +31,7 @@ struct ContentView: View {
                 }
                 
                 Rectangle()
+                    .frame(height: 40)
             }
             .padding()
             .padding()
