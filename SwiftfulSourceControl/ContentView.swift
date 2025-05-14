@@ -27,7 +27,7 @@ struct ContentView: View {
                 Button {
                     
                 } label: {
-                    Image(systemName: "iphone")
+                    Image(systemName: "ipad")
                 }
                 
                 Rectangle()
