@@ -20,6 +20,9 @@ struct HomeView: View {
             Text("Screen 2")
                 .textCase(.uppercase)
         }
+        .onAppear {
+            // send analytics
+        }
         
     }
 }
