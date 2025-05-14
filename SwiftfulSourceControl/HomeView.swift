@@ -16,6 +16,7 @@ struct HomeView: View {
         VStack {
             Text("Screen 2")
                 .textCase(.uppercase)
+                .bold()
         }
        
     }
