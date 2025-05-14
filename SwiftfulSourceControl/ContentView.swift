@@ -10,8 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.orange.opacity(0.3).ignoresSafeArea()
-            
+            Color.green.opacity(0.3).ignoresSafeArea()
             ScrollView {
                 ForEach(0..<5) {_ in
                     VStack(alignment: .center, spacing: 30) {
