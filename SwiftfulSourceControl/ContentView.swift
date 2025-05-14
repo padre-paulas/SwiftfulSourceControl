@@ -14,7 +14,7 @@ struct ContentView: View {
             ScrollView {
                 ForEach(0..<5) {_ in
                     VStack(alignment: .center, spacing: 30) {
-                        Image(systemName: "magnifyingglass")
+                        Image(systemName: "globe")
                             .imageScale(.large)
                             .foregroundStyle(.tint)
                         Text("I am gonna make it becuase I want and I can!!!")
