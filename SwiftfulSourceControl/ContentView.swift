@@ -18,7 +18,7 @@ struct ContentView: View {
                         Image(systemName: "magnifyingglass")
                             .imageScale(.large)
                             .foregroundStyle(.tint)
-                        Text("I am gonna make it becuase I want and I can!")
+                        Text("I am gonna make it becuase I want and I can!!!")
                             .font(.title3)
                             .multilineTextAlignment(.center)
                         
