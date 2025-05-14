@@ -12,29 +12,34 @@ struct ContentView: View {
         ZStack {
             Color.orange.opacity(0.3).ignoresSafeArea()
             
-            VStack(spacing: 30) {
-                Image(systemName: "macbook")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Swift is awesome!")
-                
-                Button {
-                    
-                } label: {
-                    Image(systemName: "iphone")
+            ScrollView {
+                ForEach(0..<20) {_ in 
+                    Text("Yo!")
                 }
-                
-                Button {
+                VStack(spacing: 30) {
+                    Image(systemName: "macbook")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("Swift is awesome!")
                     
-                } label: {
-                    Image(systemName: "airpods.gen3.chargingcase.wireless.fill")
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "iphone")
+                    }
+                    
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "airpods.gen3.chargingcase.wireless.fill")
+                    }
+                    
+                    Rectangle()
+                        .frame(height: 40)
                 }
-                
-                Rectangle()
-                    .frame(height: 40)
+                .padding()
+                .padding()
             }
-            .padding()
-            .padding()
         }
         
     }
