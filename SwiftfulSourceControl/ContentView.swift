@@ -12,16 +12,22 @@ struct ContentView: View {
         ZStack {
             Color.orange.opacity(0.3).ignoresSafeArea()
             
-            VStack(spacing: 30) {
+            VStack(alignment: .center, spacing: 30) {
                 Image(systemName: "macbook")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("Swift is awesome!")
+                Text("I am gonna make it becuase I want and I can!")
+                    .font(.title3)
+                    .multilineTextAlignment(.center)
+                    
                 
                 Button {
                     
                 } label: {
-                    Image(systemName: "iphone")
+                    HStack {
+                        Text("Click me!")
+                        Image(systemName: "iphone")
+                    }
                 }
                 
                 Button {
