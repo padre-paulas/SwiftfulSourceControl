@@ -14,19 +14,19 @@ struct ContentView: View {
             
             ScrollView {
                 ForEach(0..<20) {_ in 
-                    Text("Yo!")
-                }
-                VStack(spacing: 30) {
-                    Image(systemName: "macbook")
-                        .imageScale(.large)
-                        .foregroundStyle(.tint)
-                    Text("Swift is awesome!")
-                    
-                    Button {
+                    VStack(alignment: .center, spacing: 30) {
+                        Image(systemName: "macbook")
+                            .imageScale(.large)
+                            .foregroundStyle(.tint)
+                        Text("I am gonna make it becuase I want and I can!")
+                            .font(.title3)
+                            .multilineTextAlignment(.center)
                         
-                    } label: {
-                        Image(systemName: "iphone")
-                    }
+                        
+                        Button {
+                            
+                        } label: {
+                            HStack {
                     
                     Button {
                         
@@ -39,9 +39,13 @@ struct ContentView: View {
                 }
                 .padding()
                 .padding()
+                            .frame(height: 40)
+                        }
+                    }
+                    
+                }
             }
         }
-        
     }
 }
 
