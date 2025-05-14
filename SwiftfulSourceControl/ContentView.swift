@@ -31,6 +31,7 @@ struct ContentView: View {
                         
                     } label: {
                         Image(systemName: "airpods.gen3.chargingcase.wireless.fill")
+                        Image(systemName: "macstudio")
                     }
                     
                     Rectangle()
