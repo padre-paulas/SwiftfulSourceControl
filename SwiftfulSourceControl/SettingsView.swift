@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     
-    @State var color: Bool = false
+    @State var color: Bool = true
     
     var body: some View {
         
