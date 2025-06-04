@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
+    @State private var isLoggedIn: Bool = true
+    
     var body: some View {
         Text("Pavlo")
     }
