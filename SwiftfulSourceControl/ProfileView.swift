@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    @State private var isLoggedIn: Bool = true
+    @State private var isLoggedIn: Bool = false
     
     var body: some View {
         Text("Pavlo")
+            .onAppear {
+                isLoggedIn = false
+            }
     }
 }
 
